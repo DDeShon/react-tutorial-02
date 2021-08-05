@@ -112,3 +112,34 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
+  background-color: #eee;
+  color: #333;
+}
+
+.Nav li:hover a,
+.Nav li:focus a {
+  cursor: pointer;
+}
+
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+}
