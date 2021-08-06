@@ -10,6 +10,27 @@ import { Route, Switch, useHistory } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function App() {
+  const [posts, setPosts] = useState([
+    {
+      id: 1,
+      title: "My First Post",
+      datetime: "July 01, 2021, 11:17:36AM",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quas ad beatae itaque quod eligendi autem facere saepe, magni officia nemo, atque magnam ipsum nam.",
+    },
+    {
+      id: 2,
+      title: "My Second Post",
+      datetime: "July 03, 2021, 11:17:36AM",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quas ad beatae itaque quod eligendi autem facere saepe, magni officia nemo, atque magnam ipsum nam.",
+    },
+    {
+      id: 3,
+      title: "My Third Post",
+      datetime: "July 06, 2021, 11:17:36AM",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quas ad beatae itaque quod eligendi autem facere saepe, magni officia nemo, atque magnam ipsum nam.",
+    },
+  ]);
+  const [search, setSearch] = useState("");
   return (
     <div className="App">
       <Header title="React JS Blog" />
