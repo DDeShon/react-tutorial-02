@@ -15,7 +15,6 @@ const PostPage = ({ posts, handleDelete }) => {
           </>
         )}
       </article>
-      <h1>PostPage</h1>
     </main>
   );
 };
