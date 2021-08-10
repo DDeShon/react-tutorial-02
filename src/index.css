@@ -16,7 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  background-color: #efefef;
+  background-color: #aaaaaa;
 }
 
 #root {
@@ -34,7 +34,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 1px solid #333;
+  border: 1px solid #6a2bff;
   box-shadow: 0px 0px 15px gray;
 }
 
