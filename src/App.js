@@ -32,7 +32,11 @@ function App() {
   ]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+  const [postTitle, setPostTitle] = useState("");
+  const [postBody, setPostBody] = useState("");
   const history = useHistory();
+
+  const handleSubmit = () => {};
 
   const handleDelete = (id) => {
     const postsList = posts.filter((post) => post.id !== id);
@@ -49,7 +53,13 @@ function App() {
           <Home posts={posts} />
         </Route>
         <Route exact path="/post">
-          <NewPost />
+          <NewPost
+            handleSubmit={handleSubmit}
+            postTitle={postTitle}
+            setPostTitle={setPostTitle}
+            postBody={postBody}
+            setPostBody={setPostBody}
+          />
         </Route>
         <Route path="/post/:id">
           <PostPage posts={posts} handleDelete={handleDelete} />

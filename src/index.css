@@ -180,7 +180,7 @@ body {
   margin-top: 1rem;
 }
 
-.newPostForm input [type="text"],
+.newPostForm input[type="text"],
 .newPostForm textarea {
   font-family: "Open Sans", sans-serif;
   width: 100%;
