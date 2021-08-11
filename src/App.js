@@ -32,7 +32,14 @@ function App() {
   ]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-  const handleDelete = (id) => {};
+  const history = useHistory();
+
+  const handleDelete = (id) => {
+    const postsList = posts.filter((post) => post.id !== id);
+    setPosts(postsList);
+    history.push("/");
+  };
+
   return (
     <div className="App">
       <Header title="React JS Blog" />
