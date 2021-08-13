@@ -30,6 +30,12 @@ function App() {
       datetime: "July 06, 2021, 11:17:36AM",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error quas ad beatae itaque quod eligendi autem facere saepe, magni officia nemo, atque magnam ipsum nam.",
     },
+    {
+      id: 4,
+      title: "My 4th Post",
+      datetime: "July 08, 2021, 11:17:36AM",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, autem enim ducimus cupiditate ipsum inventore eligendi voluptatem quia dolorem, itaque nihil dolorum sunt molestiae similique. Dolorum repellendus dolorem minus omnis?",
+    },
   ]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
