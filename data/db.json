@@ -23,12 +23,6 @@
       "title": "My 4th Post",
       "datetime": "July 08, 2021, 11:17:36AM",
       "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, autem enim ducimus cupiditate ipsum inventore eligendi voluptatem quia dolorem, itaque nihil dolorum sunt molestiae similique. Dolorum repellendus dolorem minus omnis?"
-    },
-    {
-      "id": 5,
-      "title": "Test post for tutorial",
-      "datetime": "August 13, 2021 9:48:23 AM",
-      "body": "This is a test post"
     }
   ]
 }
