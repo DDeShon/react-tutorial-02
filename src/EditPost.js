@@ -9,6 +9,15 @@ const EditPost = ({
   editTitle,
   setEditTitle,
 }) => {
+  const { id } = useParams();
+  const post = posts.find((post) => post.id.toString() === id);
+
+  useEffect(() => {
+    if (post) {
+      setEditTitle(post.title);
+      setEditBody(post.body);
+    }
+  }, [post, setEditTitle, setEditBody]);
   return <div></div>;
 };
 
