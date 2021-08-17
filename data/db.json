@@ -29,12 +29,6 @@
       "title": "Test post update",
       "datetime": "August 14, 2021 11:55:43 PM",
       "body": "Test post update"
-    },
-    {
-      "id": 6,
-      "title": "New Test Post Updated",
-      "datetime": "August 17, 2021 8:51:14 AM",
-      "body": "This is a new test post that has been updated"
     }
   ]
 }
