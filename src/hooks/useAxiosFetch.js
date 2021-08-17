@@ -37,7 +37,7 @@ const useAxiosFetch = (dataUrl) => {
       source.cancel();
     };
 
-    return cleanUp();
+    return cleanUp;
   }, [dataUrl]);
 
   return { data, fetchError, isLoading };
