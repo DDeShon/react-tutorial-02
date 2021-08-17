@@ -32,9 +32,9 @@
     },
     {
       "id": 6,
-      "title": "New Test Post",
-      "datetime": "August 17, 2021 8:43:41 AM",
-      "body": "This is a new test post"
+      "title": "New Test Post Updated",
+      "datetime": "August 17, 2021 8:51:14 AM",
+      "body": "This is a new test post that has been updated"
     }
   ]
 }
