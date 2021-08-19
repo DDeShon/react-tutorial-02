@@ -60,7 +60,8 @@ body {
 .Footer {
   padding: 0.75rem;
   display: grid;
-  place-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .Nav {
