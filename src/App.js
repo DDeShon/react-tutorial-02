@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="React JS Blog" />
+      <Header title="React JS Developer Blog" />
       <Nav />
       <Switch>
         <Route exact path="/">
