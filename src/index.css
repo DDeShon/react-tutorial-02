@@ -70,7 +70,7 @@ body {
 
 .Nav {
   width: 100%;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -98,7 +98,7 @@ body {
 }
 
 .Nav ul {
-  color: #fff;
+  color: rgb(255, 255, 255);
   list-style-type: none;
   display: flex;
   flex-wrap: nowrap;
@@ -115,7 +115,7 @@ body {
 }
 
 .Nav li a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -123,8 +123,8 @@ body {
 .Nav li:focus,
 .Nav li:hover a,
 .Nav li:focus a {
-  background-color: #eee;
-  color: #333;
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
 }
 
 .Nav li:hover a,
@@ -141,13 +141,13 @@ body {
   flex-grow: 1;
   padding: 1rem;
   overflow-y: auto;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
 }
 
 .post {
   margin-top: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(211, 211, 211);
 }
 
 .Home .post a {
@@ -156,7 +156,7 @@ body {
 
 .Home .post a,
 .Home .post a:visited {
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 
 .post:first-child {
@@ -229,13 +229,13 @@ body {
 }
 
 .deleteButton {
-  background-color: red;
-  color: #fff;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .editButton {
-  background-color: #66cc00;
-  color: #6a2bff;
+  background-color: rgb(102, 204, 0);
+  color: rgb(106, 43, 255);
 }
 
 .statusMsg {
@@ -266,8 +266,8 @@ body {
   .Nav li:focus,
   .Nav li:hover a,
   .Nav li:focus a {
-    background-color: #eee;
-    color: #333;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
   }
 
   .searchForm {
