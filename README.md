@@ -1,1 +1,1 @@
-This is a continuation of the React tutorial from Dave Gray on YouTube. Dave's channel can be found at https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg. This will be an ongoing process as I learn and practice with React.
+This is a continuation of the React tutorial from Dave Gray on YouTube. Dave's channel can be found at https://www.youtube.com/channel/UCY38RvRIxYODO4penyxUwTg. This will be an ongoing process as I learn and practice with React. This project is nearly complete, pending some additional visual changes.
